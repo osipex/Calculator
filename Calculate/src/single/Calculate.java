@@ -18,9 +18,14 @@ public class Calculate {
     }
 
     private String getOpsName() {
-        return " plus ";        
+        return " plus ";
+        
     }
-
+    
+    public String nameShowTestMethod() {
+		return null;
+		
+	}
     public void execute(String[] args) {
         long op1 = Long.parseLong(args[0]);
         long op2 = Long.parseLong(args[1]);
